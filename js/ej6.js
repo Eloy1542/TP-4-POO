@@ -25,6 +25,7 @@ class Libro {
             document.write(` <br> El libro  ${this.titulo } con ISBN ${this.isbn} creado por el autor ${this.autor} tiene ${this.numeroPaginas} páginas `)
         }
 
+        
 
 }
 
