@@ -19,15 +19,17 @@ class Producto {
     
 }
 
-let alfajor = new Producto
-(1542,"Alfajor JORGITO", "$150");
+
+let productosTotal = [ 
+    alfajor = new Producto
+    (1542,"Alfajor JORGITO", "$150"),
+    chupetin = new Producto (
+         1684,"Chupetin Malito", "$80"
+     ),
+     galleta = new Producto(
+        2659,"Galleta Variedad", "$200"
+    )
+ ]
 
 
-let chupetin = new Producto (
-    1684,"Chupetin Malito", "$80"
-);
-
-let galleta = new Producto (
-    2659,"Galleta Variedad", "$200"
-);
-
+productosTotal[alfajor.mostrarDatos(),chupetin.mostrarDatos(),galleta.mostrarDatos()]
